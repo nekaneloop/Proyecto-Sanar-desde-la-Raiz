@@ -9,7 +9,7 @@ import ancestry from "./img/ancestry.svg";
 import astrology from "./img/astrology.svg";
 import rituals from "./img/rituals.svg";
 import { BsChevronRight } from "react-icons/bs";
-import "./App.css";
+import "./styles/style.scss";
 
 function App() {
   return (

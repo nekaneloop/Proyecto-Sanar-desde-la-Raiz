@@ -1,3 +1,12 @@
-body {
-    font-family: sans-serif
-    }
+// colors
+
+$primary-color: #E66353;
+$secondary-color: #9D9E5E;
+$tertiary-color: #623D22;
+
+* {
+    background-color: white;
+    font-family: 'Outfit';
+    color: $tertiary-color;
+}
+
