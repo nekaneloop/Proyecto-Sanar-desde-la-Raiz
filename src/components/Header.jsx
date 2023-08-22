@@ -18,7 +18,7 @@ function Header() {
             </button>
 
             <button className="btn-date">
-                Separa tu cita aquí
+                Inicia tu sanación aquí
             </button>
         </div>
     )

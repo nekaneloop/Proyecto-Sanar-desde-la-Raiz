@@ -1,4 +1,3 @@
-// Home-page
 
 // colors
 
@@ -15,6 +14,10 @@ $tertiary-color: #623D22;
 // header 
 
 .only-btn {
+    
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;
 
     .btn-home{
     background-color: transparent;
@@ -23,6 +26,7 @@ $tertiary-color: #623D22;
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    transition: none;
     }
 
     .btn-aboutMe{
@@ -56,3 +60,37 @@ $tertiary-color: #623D22;
     border-radius: 24.107px;
     }
 }
+
+//Home-page
+
+img.logo {
+    margin: 40px;
+}
+
+img.ilustration {
+    background: transparent;
+    position: relative;
+    right:620px;
+    top: 10px;
+}
+
+div.basicInformation{
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+color: #623D22;
+font-family: Outfit;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 112.5%; /* 40.5px */
+letter-spacing: 0.72px;
+}
+
+    p{
+    margin-top: -16px;
+    }
+}
+

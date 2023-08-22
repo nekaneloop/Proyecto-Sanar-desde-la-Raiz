@@ -23,7 +23,8 @@ function App() {
 
       <div className="basicInformation">
 
-        <h1> Una visión diferente de la Psicología </h1>
+        <h1> Una visión diferente de la 
+        Psicología </h1>
         <p> Mi propósito es que las personas tengan un espacio que les dé calma, donde puedan educarse para tener diversas herramientas sobre sanación emocional. </p>
 
       </div>
