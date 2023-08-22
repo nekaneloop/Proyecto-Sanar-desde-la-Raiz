@@ -1,10 +1,10 @@
 import React from "react";
-
+import "../styles/style.scss";
 
 function Header() {
     return (
 
-        <div>
+        <div className="only-btn">
             <button className="btn-home">
                 Home
             </button>

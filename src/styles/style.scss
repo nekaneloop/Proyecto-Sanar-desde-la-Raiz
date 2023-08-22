@@ -12,3 +12,47 @@ $tertiary-color: #623D22;
     color: $tertiary-color;
 }
 
+// header 
+
+.only-btn {
+
+    .btn-home{
+    background-color: transparent;
+    font-family: 'Outfit';
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    }
+
+    .btn-aboutMe{
+    background-color: transparent;
+    font-family: 'Outfit';
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    }
+
+    .btn-services{
+    background-color: transparent;
+    font-family: 'Outfit';
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    }
+
+    .btn-date{
+    background-color: $primary-color;
+    font-family: 'Outfit';
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    padding: 12.857px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24.107px;
+    }
+}
