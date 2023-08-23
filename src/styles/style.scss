@@ -9,15 +9,17 @@ $tertiary-color: #623D22;
     background-color: white;
     font-family: 'Outfit';
     color: $tertiary-color;
+    margin: 16px 16px 16px 16px;
 }
 
 // header 
 
 .only-btn {
     
-    margin: 40px;
+    margin: 0 0 0 0;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
     .btn-home{
     background-color: transparent;
@@ -61,13 +63,9 @@ $tertiary-color: #623D22;
     }
 }
 
-//Home-page
+//Home page - Firts part 
 
-img.logo {
-    margin: 40px;
-}
-
-img.ilustration {
+img.completeLogo {
     background: transparent;
     position: relative;
     right:620px;
@@ -92,5 +90,29 @@ letter-spacing: 0.72px;
     p{
     margin-top: -16px;
     }
+}
+
+//Home page - Second part 
+
+.btn-therapy {
+    background-color: transparent;
+    color: $primary-color;
+
+}
+
+.btn-workshops {
+    background-color: transparent;
+    color: $primary-color;
+}
+
+.icon-chevron{
+    color: $primary-color;
+}
+
+// Resume about psicologyst 
+
+div.iconsInformation {
+    display: flex;
+    
 }
 

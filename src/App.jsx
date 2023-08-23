@@ -1,6 +1,6 @@
 import React from 'react'
-import ilustration from "./img/ilustration.svg";
-import logo from "./img/logo.svg";
+import completeLogo from './img/completeLogo.svg'
+import lineServices from './img/lineServices.svg'
 import therapy from "./img/therapy.svg";
 import workshops from "./img/workshops.svg";
 import flowerBackground from "./img/flowerBackground.svg";
@@ -16,8 +16,7 @@ function App() {
     <>
       <div className="logos">
 
-        <img src={logo} className="logo" alt="logo phrase" />
-        <img src={ilustration} className="ilustration" alt="psychologist's ilutration" />
+        <img src={completeLogo} className="logo" alt="logo" />
 
       </div>
 
@@ -32,6 +31,7 @@ function App() {
       <div className="resumeServices">
 
         <h1> Servicios </h1>
+        <img src={lineServices} className='line' />
 
         <div className="therapy">
 
@@ -76,12 +76,13 @@ function App() {
 
         <div className="iconsInformation">
 
-          <h3> Ancestralidad </h3>
           <img src={ancestry} />
-          <h3> Rituales </h3>
           <img src={rituals} />
-          <h3> Astrología </h3>
           <img src={astrology} />
+
+          <h3> Ancestralidad </h3>
+          <h3> Rituales </h3>
+          <h3> Astrología </h3>
 
         </div>
 
