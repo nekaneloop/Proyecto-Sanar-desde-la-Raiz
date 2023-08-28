@@ -3,8 +3,7 @@ import completeLogo from './img/completeLogo.svg'
 import lineServices from './img/lineServices.svg'
 import therapy from "./img/therapy.svg";
 import workshops from "./img/workshops.svg";
-import flowerBackground from "./img/flowerBackground.svg";
-import photography from "./img/photography.svg";
+import jazmin from "./img/jazmin.svg"
 import ancestry from "./img/ancestry.svg";
 import astrology from "./img/astrology.svg";
 import rituals from "./img/rituals.svg";
@@ -18,48 +17,51 @@ function App() {
 
         <img src={completeLogo} className="logo" alt="logo" />
 
+        <div className="basicInformation">
+
+            <h1> Una visión diferente de la Psicología </h1>
+            <p> Mi propósito es que las personas tengan un espacio que les dé calma, donde puedan educarse para tener diversas herramientas sobre sanación emocional. </p>
+
+        </div>
       </div>
 
-      <div className="basicInformation">
 
-        <h1> Una visión diferente de la 
-        Psicología </h1>
-        <p> Mi propósito es que las personas tengan un espacio que les dé calma, donde puedan educarse para tener diversas herramientas sobre sanación emocional. </p>
+      <div className="resume">
 
-      </div>
-
-      <div className="resumeServices">
-
+      <div className='allServices'>
         <h1> Servicios </h1>
         <img src={lineServices} className='line' />
+      </div>
 
-        <div className="therapy">
+      <div className="therapy">
 
-          <h2> Terapia Psicológica </h2>
-          <p> Te acompaño en tu proceso de sanación desde una visión integral de lo que necesitas soltar y liberar.</p>
+        <div className='infoT'> 
+        <h2> Terapia Psicológica </h2>
+        <p> Te acompaño en tu proceso de sanación desde una visión integral de lo que necesitas soltar y liberar.</p>
+        </div>
+
           <img src={therapy} className="imgTherapy" alt="two holding hands" />
 
           <button className="btn-therapy">
-            Conoce más aquí <BsChevronRight />
+            Conoce más aquí <BsChevronRight fill='#E66353'/>
           </button>
 
-        </div>
+      </div>
 
+        
         <div className="workshops">
           <h2> Talleres </h2>
           <p> Educación en antirracismo, género y procesos emocionales. Dirigido a corporaciones o de manera individual. </p>
           <img src={workshops} className="imgWorkshops" alt="hands" />
 
           <button className="btn-workshops">
-            Conoce más aquí <BsChevronRight />
+            Conoce más aquí <BsChevronRight fill='#E66353'/>
           </button>
 
         </div>
 
         <div className="psychologistResume">
-
-          <img src={flowerBackground} className="flowerBackground" alt="green flowers background for the photography" />
-          <img src={photography} className="photography" alt="psychologist's photograph" />
+          <img src={jazmin} className="photography" alt="psychologist's photograph" />
 
         </div>
 
