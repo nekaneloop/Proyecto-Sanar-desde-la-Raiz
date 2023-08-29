@@ -101,6 +101,12 @@ div.basicInformation {
         margin-top: -16px;
         //layout
         width: 475px;
+        font-family: Outfit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 14px;
     }
 }
 
@@ -136,6 +142,11 @@ div.therapy {
 }
 
 //Information about therapy
+
+.resumeW {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .infoT {
@@ -189,7 +200,6 @@ div.therapy {
     align-items: center;
     text-align: center;
     justify-content: center;
-    text-align: center;
     font-family: Outfit;
     font-size: 32px;
     font-style: normal;
@@ -212,40 +222,47 @@ div.therapy {
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.72px;
+        position: relative;
+        right: 362px;
     }
 
-        p {
-            color: #333333;
-            text-align: center;
-            font-family: Outfit;
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: normal;
-            letter-spacing: 0.64px;
-            //layout
-            width: 635px;
-            height: 119px;
-            flex-shrink: 0;
-        }
-        }
-
-.btn-workshops {
-        background-color: transparent;
-        color: $primary-color;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+    p {
+        color: #333333;
         text-align: center;
         font-family: Outfit;
         font-size: 32px;
         font-style: normal;
-        font-weight: 800;
-        line-height: 20px;
-        /* 62.5% */
+        font-weight: 300;
+        line-height: normal;
         letter-spacing: 0.64px;
+        //layout
+        width: 635px;
+        height: 119px;
+        flex-shrink: 0;
     }
+}
+
+.imgWorkshops {
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+}
+
+.btn-workshops {
+    background-color: transparent;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    /* 62.5% */
+    letter-spacing: 0.64px;
+}
 
 // Resume about psicologyst 
 
@@ -254,11 +271,59 @@ div.therapy {
     flex-direction: column;
 }
 
-div.iconsInformation {
+.jazmin {
+    width: 100%;
+    height: auto;
     display: flex;
 }
 
-.flowerBackground {
-    width: 100%;
-    margin: 0;
+.psychologistResume {
+
+    h1 {
+        color: $secondary-color;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 20px;
+        /* 20.833% */
+        letter-spacing: 1.92px;
+    }
+
+    p {
+        color: $tertiary-color;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34.5px;
+        /* 123.214% */
+        letter-spacing: 0.28px;
+        margin-top: 80px;
+    }
 }
+
+.iconsInformation {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn-aboutMe {
+    background-color: transparent;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    /* 62.5% */
+    letter-spacing: 0.64px;
+}
+

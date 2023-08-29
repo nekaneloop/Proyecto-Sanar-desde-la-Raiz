@@ -4,9 +4,9 @@ import lineServices from './img/lineServices.svg'
 import therapy from "./img/therapy.svg";
 import workshops from "./img/workshops.svg";
 import jazmin from "./img/jazmin.svg"
-import ancestry from "./img/ancestry.svg";
-import astrology from "./img/astrology.svg";
-import rituals from "./img/rituals.svg";
+import ancestors from "./img/ancestors.svg";
+import astro from "./img/astro.svg";
+import ritual from "./img/ritual.svg";
 import { BsChevronRight } from "react-icons/bs";
 import "./styles/style.scss";
 
@@ -50,7 +50,7 @@ function App() {
         </div>
 
         <div className='resumeW'>
-          
+
           <div className="workshops">
             <h2> Talleres </h2>
             <p> Educación en antirracismo, género y procesos emocionales. Dirigido a corporaciones o de manera individual. </p>
@@ -59,17 +59,14 @@ function App() {
           <img src={workshops} className="imgWorkshops" alt="hands" />
 
           <button className="btn-workshops">
-            Conoce más aquí <BsChevronRight fill='#E66353' />
+            Conoce más aquí <BsChevronRight fill='#E66353'/>
           </button>
 
         </div>
 
         <div className="psychologistResume">
-          <img src={jazmin} className="photography" alt="psychologist's photograph" />
-
-        </div>
-
-        <h1> JAZMÍN REYES </h1>
+          <img src={jazmin} className="jazmin" alt="psychologist's photograph" />
+          <h1> JAZMÍN REYES </h1>
         <p>
           ¡Hola! Soy Psicóloga Clínica egresada de la Universidad Peruana de
           Ciencias Aplicadas. Acompaño a las personas en sus procesos
@@ -80,17 +77,22 @@ function App() {
           emocionales.
         </p>
 
+        </div>
+
+
+
         <div className="iconsInformation">
 
-          <img src={ancestry} />
-          <img src={rituals} />
-          <img src={astrology} />
-
-          <h3> Ancestralidad </h3>
-          <h3> Rituales </h3>
-          <h3> Astrología </h3>
+          <img src={ancestors} />
+          <img src={ritual} />
+          <img src={astro} />
 
         </div>
+
+        <button className="btn-aboutMe">
+            Conoce más aquí <BsChevronRight fill='#E66353'/>
+        </button>
+
 
       </div>
       {/* <button onClick={() => setCount((count) => count + 1)}> */}
