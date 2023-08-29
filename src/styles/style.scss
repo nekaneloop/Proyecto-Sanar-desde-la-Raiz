@@ -142,6 +142,7 @@ div.therapy {
     display: flex;
     flex-direction: column;
 
+
     h2 {
         color: $tertiary-color;
         font-family: Outfit;
@@ -150,6 +151,8 @@ div.therapy {
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.72px;
+        position: relative;
+        right: -151px;
     }
 
     p {
@@ -170,9 +173,12 @@ div.therapy {
 }
 
 .imgTherapy {
-    width: 18%;
-    display: flex;
-
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    position: relative;
+    left: 30px;
+    top: 50px;
 }
 
 
@@ -180,7 +186,7 @@ div.therapy {
     background-color: transparent;
     color: $primary-color;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     justify-content: center;
     text-align: center;
@@ -195,14 +201,58 @@ div.therapy {
 
 //Information about workshops
 
+.workshops {
+
+    h2 {
+        color: $tertiary-color;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.72px;
+    }
+
+        p {
+            color: #333333;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: 0.64px;
+            //layout
+            width: 635px;
+            height: 119px;
+            flex-shrink: 0;
+        }
+        }
+
 .btn-workshops {
-    background-color: transparent;
-    color: $primary-color;
-}
-
-
+        background-color: transparent;
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 20px;
+        /* 62.5% */
+        letter-spacing: 0.64px;
+    }
 
 // Resume about psicologyst 
+
+.resume {
+    display: flex;
+    flex-direction: column;
+}
 
 div.iconsInformation {
     display: flex;
