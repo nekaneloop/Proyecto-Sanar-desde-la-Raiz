@@ -8,7 +8,9 @@ import ancestors from "./img/ancestors.svg";
 import astro from "./img/astro.svg";
 import ritual from "./img/ritual.svg";
 import { BsChevronRight } from "react-icons/bs";
-// import { Link } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import AboutMe from './components/AboutMe'
+import Services from './components/Services'
 import "./styles/style.scss";
 
 
@@ -19,11 +21,13 @@ function App() {
     {/* Routes */}
 
     <div className='routes'>
-      
-       
-
-
+        <Routes> 
+        <Route path="/SobreMí" element={<AboutMe />} /> 
+        <Route path="/Servicios" element={<Services />} /> 
+        </Routes>
     </div>
+
+
 
     {/* Only HOME */}
 
