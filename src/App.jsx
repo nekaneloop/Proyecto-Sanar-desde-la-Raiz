@@ -8,12 +8,25 @@ import ancestors from "./img/ancestors.svg";
 import astro from "./img/astro.svg";
 import ritual from "./img/ritual.svg";
 import { BsChevronRight } from "react-icons/bs";
+// import { Link } from 'react-router-dom';
 import "./styles/style.scss";
 
 
 function App() {
   return (
     <>
+
+    {/* Routes */}
+
+    <div className='routes'>
+      
+       
+
+
+    </div>
+
+    {/* Only HOME */}
+
       <div className="logos">
 
         <img src={completeLogo} className="logo" alt="logo" />
