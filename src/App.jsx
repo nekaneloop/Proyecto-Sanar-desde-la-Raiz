@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/SobreMi" element={<AboutMe />} />

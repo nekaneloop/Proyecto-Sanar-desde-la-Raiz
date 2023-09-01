@@ -1,14 +1,14 @@
 import React from 'react'
-import completeLogo from './img/completeLogo.svg'
-import lineServices from './img/lineServices.svg'
-import therapy from "./img/therapy.svg";
-import workshops from "./img/workshops.svg";
-import jazmin from "./img/jazmin.svg"
-import ancestors from "./img/ancestors.svg";
-import astro from "./img/astro.svg";
-import ritual from "./img/ritual.svg";
+import completeLogo from '../img/completeLogo.svg'
+import lineServices from '../img/lineServices.svg'
+import therapy from "../img/therapy.svg";
+import workshops from "../img/workshops.svg";
+import jazmin from "../img/jazmin.svg"
+import ancestors from "../img/ancestors.svg";
+import astro from "../img/astro.svg";
+import ritual from "../img/ritual.svg";
 import { BsChevronRight } from "react-icons/bs";
-import "./styles/style.scss";
+import "../styles/style.scss";
 
 
 function Home() {
