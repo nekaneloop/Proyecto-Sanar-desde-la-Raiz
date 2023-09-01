@@ -12,6 +12,12 @@ import "../styles/style.scss";
 
 
 function Home() {
+
+const clickAboutMe = () => {
+    window.location.href= '/SobreMi';
+}
+
+
   return (
     <>
 
@@ -92,7 +98,7 @@ function Home() {
 
         </div>
 
-        <button className="btn-aboutMe">
+        <button className="btn-aboutMe" onClick={clickAboutMe}>
             Conoce más aquí <BsChevronRight fill='#E66353'/>
         </button>
 
