@@ -2,18 +2,31 @@ import React from "react";
 import "../styles/style.scss";
 
 function Header() {
-    return (
 
+    const clickHome = () => {
+        window.location.href= '/';
+    }
+
+    const clickAboutMe = () => {
+        window.location.href= '/SobreMi';
+    }
+
+    const clickServices = () => {
+        window.location.href= '/Servicios';
+    }
+
+    return (
+    
         <div className="only-btn">
-            <button className="btn-home">
+            <button type="button" className="btn-home" onClick={clickHome}>
                 Home
             </button>
 
-            <button className="btn-aboutMe">
+            <button className="btn-aboutMe" onClick={clickAboutMe}>
                 Sobre mí
             </button>
 
-            <button className="btn-services">
+            <button className="btn-services" onClick={clickServices}>
                 Servicios
             </button>
 
