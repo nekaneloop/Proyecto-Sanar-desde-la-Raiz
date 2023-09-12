@@ -7,6 +7,7 @@ import jazmin from "../img/jazmin.svg"
 import ancestors from "../img/ancestors.svg";
 import astro from "../img/astro.svg";
 import ritual from "../img/ritual.svg";
+import logoFooter from "../img/logoFooter.svg";
 import { BsChevronRight } from "react-icons/bs";
 import "../styles/style.scss";
 
@@ -99,9 +100,16 @@ const clickAboutMe = () => {
         </div>
 
         <button className="btn-aboutMe" onClick={clickAboutMe}>
-            Conoce más aquí <BsChevronRight fill='#E66353'/>
+            Conóceme aquí <BsChevronRight fill='#E66353'/>
         </button>
 
+        <div className='footer'>
+          <img src={logoFooter} className='logoFooter' />
+          <p> Una visión diferente de la Psicología. </p>
+          
+        
+
+        </div>
 
       </div>
       {/* <button onClick={() => setCount((count) => count + 1)}> */}

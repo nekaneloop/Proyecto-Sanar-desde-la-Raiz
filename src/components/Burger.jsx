@@ -1,17 +1,17 @@
-import React from "react";
-import "../styles/style.scss";
+// import React from "react";
+// import "../styles/style.scss";
 
-function Burger() {
-    return(
+// function Burger() {
+//     return(
 
-        <Burger> 
-            <div className="nav-icon-5"> 
+//         <Burger> 
+//             <div className="nav-icon-5"> 
 
-            </div>
+//             </div>
 
-        </Burger>
+//         </Burger>
 
-    )
-}
+//     )
+// }
 
-export default Burger;
+// export default Burger;

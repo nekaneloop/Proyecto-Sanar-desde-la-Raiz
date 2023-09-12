@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //import Header from "./components/Header.jsx";
-import AboutMe from "./components/AboutMe.jsx";
+// import AboutMe from "./components/AboutMe.jsx";
 import Services from "./components/Services.jsx";
 import Home from "./components/Home.jsx";
 //import Burger from "./components/Burger.jsx"
@@ -12,7 +12,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/SobreMi" element={<AboutMe />} />
+          {/* <Route path="/SobreMi" element={<AboutMe />} /> */}
           <Route path="/Servicios" element={<Services />} />
         </Routes>
       </div>

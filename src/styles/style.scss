@@ -9,14 +9,14 @@ $tertiary-color: #623D22;
     background-color: white;
     font-family: 'Outfit';
     color: $tertiary-color;
-    margin: 16px 16px 16px 16px;
+    margin: 0 0 0 0;
 }
 
 // header 
 
 .only-btn {
 
-    margin: 0 0 0 0;
+    margin: 16px 16px 16px 16px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -70,6 +70,7 @@ $tertiary-color: #623D22;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 img.completeLogo {
@@ -85,7 +86,7 @@ div.basicInformation {
     flex-direction: column;
 
     h1 {
-        color: #623D22;
+        color:$tertiary-color;
         font-family: Outfit;
         font-size: 36px;
         font-style: normal;
@@ -131,12 +132,17 @@ div.therapy {
         font-style: normal;
         font-weight: 900;
         line-height: normal;
+        margin-top: 164px;
     }
 
     img.line {
-        width: 586.557px;
-        height: 24.918px;
+        height: 135px;
         stroke-width: 3px;
+        background-color: transparent;
+        position: relative;
+        top: -43px;
+        margin-bottom: 100px;
+        
     }
 
 }
@@ -157,39 +163,40 @@ div.therapy {
     h2 {
         color: $tertiary-color;
         font-family: Outfit;
-        font-size: 36px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.72px;
+        margin-left: 80px;
         position: relative;
-        right: -151px;
+        right: -243px;
     }
 
     p {
         color: #333;
         text-align: center;
         font-family: Outfit;
-        font-size: 32px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         letter-spacing: 0.64px;
         //layout
-        width: 635px;
+        width: 891px;
         height: 122px;
         flex-shrink: 0;
+        margin: 20px 80px 20px 80px;
     }
 
 }
 
 .imgTherapy {
-    width: 288px;
-    height: 288px;
-    flex-shrink: 0;
-    position: relative;
-    left: 30px;
-    top: 50px;
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    margin: 80px 20px 20px 80px;
+    display: flex;
 }
 
 
@@ -217,7 +224,7 @@ div.therapy {
         color: $tertiary-color;
         text-align: center;
         font-family: Outfit;
-        font-size: 36px;
+        font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -332,54 +339,54 @@ div.therapy {
 
 // Hamburger 
 
-.nav-icon-5{
-    width: 35px;
-    height: 30px;
-    margin: 10px 10px;
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-  }
-  .nav-icon-5 span{
-    background-color:#fff;
-    position: absolute;
-    border-radius: 2px;
-    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
-    width:100%;
-    height: 4px;
-    transition-duration: 500ms
-  }
-  .nav-icon-5 span:nth-child(1){
-    top:0px;
-    left: 0px;
-  }
-  .nav-icon-5 span:nth-child(2){
-    top:13px;
-    left: 0px;
-    opacity:1;
-  }
-  .nav-icon-5 span:nth-child(3){
-    bottom:0px;
-    left: 0px;
-  }
-  .nav-icon-5:not(.open):hover span:nth-child(1){
-    transform: rotate(-3deg) scaleY(1.1);
-  }
-  .nav-icon-5:not(.open):hover span:nth-child(2){
-    transform: rotate(3deg) scaleY(1.1);
-  }
-  .nav-icon-5:not(.open):hover span:nth-child(3){
-    transform: rotate(-4deg) scaleY(1.1);
-  }
-  .nav-icon-5.open span:nth-child(1){
-    transform: rotate(45deg);
-    top: 13px;
-  }
-  .nav-icon-5.open span:nth-child(2){
-    opacity:0;
-  }
-  .nav-icon-5.open span:nth-child(3){
-    transform: rotate(-45deg);
-    top: 13px;
-  }
+// .nav-icon-5{
+//     width: 35px;
+//     height: 30px;
+//     margin: 10px 10px;
+//     position: relative;
+//     cursor: pointer;
+//     display: inline-block;
+//   }
+//   .nav-icon-5 span{
+//     background-color:#fff;
+//     position: absolute;
+//     border-radius: 2px;
+//     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+//     width:100%;
+//     height: 4px;
+//     transition-duration: 500ms
+//   }
+//   .nav-icon-5 span:nth-child(1){
+//     top:0px;
+//     left: 0px;
+//   }
+//   .nav-icon-5 span:nth-child(2){
+//     top:13px;
+//     left: 0px;
+//     opacity:1;
+//   }
+//   .nav-icon-5 span:nth-child(3){
+//     bottom:0px;
+//     left: 0px;
+//   }
+//   .nav-icon-5:not(.open):hover span:nth-child(1){
+//     transform: rotate(-3deg) scaleY(1.1);
+//   }
+//   .nav-icon-5:not(.open):hover span:nth-child(2){
+//     transform: rotate(3deg) scaleY(1.1);
+//   }
+//   .nav-icon-5:not(.open):hover span:nth-child(3){
+//     transform: rotate(-4deg) scaleY(1.1);
+//   }
+//   .nav-icon-5.open span:nth-child(1){
+//     transform: rotate(45deg);
+//     top: 13px;
+//   }
+//   .nav-icon-5.open span:nth-child(2){
+//     opacity:0;
+//   }
+//   .nav-icon-5.open span:nth-child(3){
+//     transform: rotate(-45deg);
+//     top: 13px;
+//   }
 
