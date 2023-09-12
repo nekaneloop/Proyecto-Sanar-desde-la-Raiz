@@ -47,12 +47,13 @@ const clickAboutMe = () => {
         <div className="therapy">
 
           <div className='infoT'>
+            <div className='infoT2'> 
             <h2> Terapia Psicológica </h2>
             <p> Te acompaño en tu proceso de sanación desde una visión integral de lo que necesitas soltar y liberar.</p>
+            </div>
+            <img src={therapy} className="imgTherapy" alt="two holding hands" />
           </div>
-
-          <img src={therapy} className="imgTherapy" alt="two holding hands" />
-
+          
           <button className="btn-therapy">
             Conoce más aquí <BsChevronRight fill='#E66353' />
           </button>
@@ -62,11 +63,12 @@ const clickAboutMe = () => {
         <div className='resumeW'>
 
           <div className="workshops">
+            <div className='workshops-two'>
             <h2> Talleres </h2>
             <p> Educación en antirracismo, género y procesos emocionales. Dirigido a corporaciones o de manera individual. </p>
+            </div>
+            <img src={workshops} className="imgWorkshops" alt="hands" />
           </div>
-
-          <img src={workshops} className="imgWorkshops" alt="hands" />
 
           <button className="btn-workshops">
             Conoce más aquí <BsChevronRight fill='#E66353'/>

@@ -124,6 +124,9 @@ div.therapy {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 3px blue;
+    padding: 80px 20px 20px 20px;
+    margin-top: 20px;
 
     h1 {
         text-align: center;
@@ -132,7 +135,7 @@ div.therapy {
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        margin-top: 164px;
+        //margin-top: 164px;
     }
 
     img.line {
@@ -141,7 +144,7 @@ div.therapy {
         background-color: transparent;
         position: relative;
         top: -43px;
-        margin-bottom: 100px;
+        //margin-bottom: 100px;
         
     }
 
@@ -149,16 +152,26 @@ div.therapy {
 
 //Information about therapy
 
-.resumeW {
-    display: flex;
-    flex-direction: column;
-}
+// .resumeW {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// Theraphy info
 
 
 .infoT {
     display: flex;
-    flex-direction: column;
+   // flex-direction: column;
+    border: solid 3px red;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.infoT2 {
+
+    border: solid 3px red;
 
     h2 {
         color: $tertiary-color;
@@ -169,8 +182,9 @@ div.therapy {
         line-height: normal;
         letter-spacing: 0.72px;
         margin-left: 80px;
-        position: relative;
-        right: -243px;
+        //position: relative;
+        //right: -243px;
+        text-align: center;
     }
 
     p {
@@ -197,8 +211,13 @@ div.therapy {
     height: 500px;
     margin: 80px 20px 20px 80px;
     display: flex;
+    border: solid 3px red;
 }
 
+.img-container {
+    position: relative;
+    left: 30px;
+  }
 
 .btn-therapy {
     background-color: transparent;
@@ -219,6 +238,16 @@ div.therapy {
 //Information about workshops
 
 .workshops {
+    display: flex;
+    // flex-direction: column;
+     border: solid 3px red;
+     align-items: center;
+     justify-content: center;
+}
+
+.workshops-two {
+
+    border: solid 3px blue;
 
     h2 {
         color: $tertiary-color;
@@ -229,30 +258,35 @@ div.therapy {
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.72px;
-        position: relative;
-        right: 362px;
+        //position: relative;
+        //right: 362px;
+        text-align: center;
     }
 
     p {
-        color: #333333;
+        color: #333;
         text-align: center;
         font-family: Outfit;
-        font-size: 32px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         letter-spacing: 0.64px;
         //layout
-        width: 635px;
-        height: 119px;
+        width: 891px;
+        height: 122px;
         flex-shrink: 0;
+        margin: 20px 80px 20px 80px;
     }
 }
 
 .imgWorkshops {
-    width: 288px;
-    height: 288px;
-    flex-shrink: 0;
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    margin: 80px 20px 20px 80px;
+    display: flex;
+    border: solid 3px blue;
 }
 
 .btn-workshops {
@@ -332,9 +366,30 @@ div.therapy {
     line-height: 20px;
     /* 62.5% */
     letter-spacing: 0.64px;
+    margin: 40px 80px 40px 80px;
 }
 
 //Footer 
+
+.footer{
+    background-color: $secondary-color;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logoFooter {
+        background-color: transparent;
+        margin: 40px 80px 10px 80px;
+        width: 20%;
+
+    }
+
+    p {
+        background-color: transparent;
+        color: white;
+    }
+}
 
 
 // Hamburger 
