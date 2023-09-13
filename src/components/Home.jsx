@@ -68,8 +68,6 @@ const clickAboutMe = () => {
             <p> Educación en antirracismo, género y procesos emocionales. Dirigido a corporaciones o de manera individual. </p>
             </div>
             <img src={workshops} className="imgWorkshops" alt="hands" />
-
-            
           </div>
 
           <button className="btn-workshops">

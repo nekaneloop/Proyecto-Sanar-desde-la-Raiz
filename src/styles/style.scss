@@ -152,11 +152,6 @@ div.therapy {
 
 //Information about therapy
 
-// .resumeW {
-//     display: flex;
-//     flex-direction: column;
-// }
-
 // Theraphy info
 
 
@@ -237,12 +232,16 @@ div.therapy {
 
 //Information about workshops
 
+.resumeW {
+    display: flex;
+    flex-direction: column;
+}
+
 .workshops {
     display: flex;
-    // flex-direction: column;
-     border: solid 3px red;
-     align-items: center;
-     justify-content: center;
+    border: solid 3px red;
+    align-items: center;
+    justify-content: center;
 }
 
 .workshops-two {
@@ -253,14 +252,11 @@ div.therapy {
         color: $tertiary-color;
         text-align: center;
         font-family: Outfit;
-        //margin-left: 80px;
         font-size: 42px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.72px;
-        //position: relative;
-        //right: 362px;
         text-align: center;
     }
 
@@ -285,7 +281,6 @@ div.therapy {
     background-color: transparent;
     width: 500px;
     height: 500px;
-    //margin: 80px 20px 20px 80px;
     display: flex;
     border: solid 3px blue;
     margin: 80px 20px 20px 80px;
@@ -293,7 +288,7 @@ div.therapy {
 
 .btn-workshops {
     background-color: transparent;
-    color: $primary-color;
+    color: #E66353;
     display: flex;
     align-items: center;
     text-align: center;
@@ -303,7 +298,6 @@ div.therapy {
     font-style: normal;
     font-weight: 800;
     line-height: 20px;
-    /* 62.5% */
     letter-spacing: 0.64px;
 }
 
@@ -340,10 +334,6 @@ div.therapy {
         text-align: center;
         font-family: Outfit;
         font-size: 96px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 20px;
-        /* 20.833% */
         letter-spacing: 1.92px;
     }
 
@@ -359,15 +349,14 @@ div.therapy {
         font-weight: 500;
         line-height: 34.5px; /* 123.214% */
         letter-spacing: 0.28px;
-        display: flex;
-
-
+        padding: 40px 40px 40px 40px;
     }
 }
 
 .iconsInformation {
     display: flex;
     justify-content: space-around;
+    padding: 40px 20px 40px 20px;
 }
 
 
@@ -385,7 +374,7 @@ div.therapy {
     line-height: 20px;
     /* 62.5% */
     letter-spacing: 0.64px;
-    margin: 40px 80px 40px 80px;
+    //margin: 40px 80px 40px 80px;
 }
 
 //Footer 
