@@ -68,6 +68,8 @@ const clickAboutMe = () => {
             <p> Educación en antirracismo, género y procesos emocionales. Dirigido a corporaciones o de manera individual. </p>
             </div>
             <img src={workshops} className="imgWorkshops" alt="hands" />
+
+            
           </div>
 
           <button className="btn-workshops">
@@ -77,8 +79,14 @@ const clickAboutMe = () => {
         </div>
 
         <div className="psychologistResume">
+          
+          <div className='jazmin-info'> 
+
           <img src={jazmin} className="jazmin" alt="psychologist's photograph" />
           <h1> JAZMÍN REYES </h1>
+
+          </div>
+
         <p>
           ¡Hola! Soy Psicóloga Clínica egresada de la Universidad Peruana de
           Ciencias Aplicadas. Acompaño a las personas en sus procesos

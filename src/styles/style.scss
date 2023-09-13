@@ -171,7 +171,7 @@ div.therapy {
 
 .infoT2 {
 
-    border: solid 3px red;
+    border: solid 3px purple;
 
     h2 {
         color: $tertiary-color;
@@ -253,7 +253,8 @@ div.therapy {
         color: $tertiary-color;
         text-align: center;
         font-family: Outfit;
-        font-size: 56px;
+        //margin-left: 80px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -284,9 +285,10 @@ div.therapy {
     background-color: transparent;
     width: 500px;
     height: 500px;
-    margin: 80px 20px 20px 80px;
+    //margin: 80px 20px 20px 80px;
     display: flex;
     border: solid 3px blue;
+    margin: 80px 20px 20px 80px;
 }
 
 .btn-workshops {
@@ -313,12 +315,25 @@ div.therapy {
 }
 
 .jazmin {
-    width: 100%;
+
+    padding-top: 40px;
+    width: 90%;
     height: auto;
+
+}
+
+.jazmin-info{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px purple;
 }
 
 .psychologistResume {
+
+    display: flex;
+    flex-direction: column;
+    border: solid 3px yellow;
 
     h1 {
         color: $secondary-color;
@@ -333,16 +348,20 @@ div.therapy {
     }
 
     p {
+        background-color: transparent;
+        width: 90%;
+        align-items: center;
         color: $tertiary-color;
         text-align: center;
         font-family: Outfit;
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
-        line-height: 34.5px;
-        /* 123.214% */
+        line-height: 34.5px; /* 123.214% */
         letter-spacing: 0.28px;
-        margin-top: 80px;
+        display: flex;
+
+
     }
 }
 
