@@ -8,6 +8,7 @@ import ancestors from "../img/ancestors.svg";
 import astro from "../img/astro.svg";
 import ritual from "../img/ritual.svg";
 import logoFooter from "../img/logoFooter.svg";
+import footerIlustration from '../img/footerIlustration.svg';
 import { BsChevronRight } from "react-icons/bs";
 import "../styles/style.scss";
 
@@ -30,7 +31,7 @@ const clickAboutMe = () => {
 
         <div className="basicInformation">
 
-          <h1> Una visión diferente de la Psicología </h1>
+          <h1> Una visión diferente de la Psicología. </h1>
           <p> Mi propósito es que las personas tengan un espacio que les dé calma, donde puedan educarse para tener diversas herramientas sobre sanación emocional. </p>
 
         </div>
@@ -111,15 +112,19 @@ const clickAboutMe = () => {
             Conóceme aquí <BsChevronRight fill='#E66353'/>
         </button>
 
+
         <div className='footer'>
+
+          <div className='only-footer'>
           <img src={logoFooter} className='logoFooter' />
           <p> Una visión diferente de la Psicología. </p>
-          
-        
+          <img src={footerIlustration} className='footerIlu'/>
+          <h3> Sígueme en mis redes</h3> 
+          </div>
 
         </div>
+        </div>
 
-      </div>
       {/* <button onClick={() => setCount((count) => count + 1)}> */}
       {/* count is {count} */}
       {/* </button> */}

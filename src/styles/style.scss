@@ -16,7 +16,7 @@ $tertiary-color: #623D22;
 
 .only-btn {
 
-    margin: 16px 16px 16px 16px;
+    margin: 40px 80px 40px 40px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -66,11 +66,16 @@ $tertiary-color: #623D22;
 //Home page - Firts part 
 
 .logos {
+    border: solid rgb(255, 16, 83);
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+
+.logo{
+    width: 60%;
+    
 }
 
 img.completeLogo {
@@ -88,7 +93,7 @@ div.basicInformation {
     h1 {
         color:$tertiary-color;
         font-family: Outfit;
-        font-size: 36px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 800;
         line-height: 112.5%;
@@ -103,7 +108,7 @@ div.basicInformation {
         //layout
         width: 475px;
         font-family: Outfit;
-        font-size: 24px;
+        font-size: 26px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -379,25 +384,55 @@ div.therapy {
 
 //Footer 
 
+
+
 .footer{
     background-color: $secondary-color;
-    margin-top: 40px;
     display: flex;
+    height: 449.042px;
+    margin: 80px 80px 0 80px ;
+    border-radius: 26.973px 26.973px 0px 0px;
+    border: solid chartreuse;
+    flex-direction: column;
+
+}
+
+.only-footer{
+    display: flex;
+    // border: solid 4px fuchsia;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
+}
+
 
     .logoFooter {
         background-color: transparent;
-        margin: 40px 80px 10px 80px;
-        width: 20%;
-
+        background-color: $secondary-color;
+        width: 333px;
+        height: 58.621px;
+        padding: 40px 80px 10px 80px;
+        display: flex;
     }
 
     p {
         background-color: transparent;
-        color: white;
+        background-color: $secondary-color;
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
     }
-}
+
+    .footerIlu{
+        background-color: $secondary-color;
+
+    }
+
+
 
 
 // Hamburger 
