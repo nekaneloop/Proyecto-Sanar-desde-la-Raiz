@@ -66,7 +66,7 @@ $tertiary-color: #623D22;
 //Home page - Firts part 
 
 .logos {
-    border: solid rgb(255, 16, 83);
+    //border: solid rgb(255, 16, 83);
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -129,7 +129,7 @@ div.therapy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 3px blue;
+    //border: solid 3px blue;
     padding: 80px 20px 20px 20px;
     margin-top: 20px;
 
@@ -163,7 +163,7 @@ div.therapy {
 .infoT {
     display: flex;
    // flex-direction: column;
-    border: solid 3px red;
+    //border: solid 3px red;
     align-items: center;
     justify-content: center;
 
@@ -171,7 +171,7 @@ div.therapy {
 
 .infoT2 {
 
-    border: solid 3px purple;
+    //border: solid 3px purple;
 
     h2 {
         color: $tertiary-color;
@@ -211,7 +211,7 @@ div.therapy {
     height: 500px;
     margin: 80px 20px 20px 80px;
     display: flex;
-    border: solid 3px red;
+    //border: solid 3px red;
 }
 
 .img-container {
@@ -244,14 +244,14 @@ div.therapy {
 
 .workshops {
     display: flex;
-    border: solid 3px red;
+    //border: solid 3px red;
     align-items: center;
     justify-content: center;
 }
 
 .workshops-two {
 
-    border: solid 3px blue;
+    //border: solid 3px blue;
 
     h2 {
         color: $tertiary-color;
@@ -287,7 +287,7 @@ div.therapy {
     width: 500px;
     height: 500px;
     display: flex;
-    border: solid 3px blue;
+    //border: solid 3px blue;
     margin: 80px 20px 20px 80px;
 }
 
@@ -325,14 +325,14 @@ div.therapy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 3px purple;
+    //border: solid 3px purple;
 }
 
 .psychologistResume {
 
     display: flex;
     flex-direction: column;
-    border: solid 3px yellow;
+    //border: solid 3px yellow;
 
     h1 {
         color: $secondary-color;
@@ -392,7 +392,7 @@ div.therapy {
     height: 449.042px;
     margin: 80px 80px 0 80px ;
     border-radius: 26.973px 26.973px 0px 0px;
-    border: solid chartreuse;
+    //border: solid chartreuse;
     flex-direction: column;
 
 }
@@ -417,9 +417,9 @@ div.therapy {
 
     p {
         background-color: transparent;
-        background-color: $secondary-color;
-        color: #FFF;
-        text-align: center;
+        //background-color: $secondary-color;
+        color: $tertiary-color;
+        //text-align: center;
         font-family: Outfit;
         font-size: 24px;
         font-style: normal;
@@ -430,6 +430,17 @@ div.therapy {
     .footerIlu{
         background-color: $secondary-color;
 
+    }
+
+    h3 {
+        background-color: transparent;
+        color: #FFF;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 
 
