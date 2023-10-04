@@ -33,6 +33,8 @@ function Header() {
             <button className="btn-date">
                 Inicia tu sanación aquí
             </button>
+
+
         </div>
     )
 }

@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import AboutMe from "./components/AboutMe.jsx";
 import Services from "./components/Services.jsx";
 import Home from "./components/Home.jsx";
-//import Burger from "./components/Burger.jsx"
 
 function App() {
   return (
